@@ -403,7 +403,7 @@ public class CustomGridAdapter extends BaseAdapter {
 
 ```
 
-## Instanciar o adaptador, associar à ListView e incluir dados
+## Instanciar o adaptador, associar à GridView e incluir dados
 Finalmente, devemos instanciar a gridview e o adapter, e incluir objetos do tipo tratado.
 
 ```
