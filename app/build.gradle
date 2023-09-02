@@ -1,14 +1,16 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
+    compileSdk 32
+
     defaultConfig {
-        applicationId "com.github.machadowma.listaapp"
-        minSdkVersion 15
-        targetSdkVersion 27
+        applicationId "com.example.mycrud"
+        minSdk 21
+        targetSdk 32
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
